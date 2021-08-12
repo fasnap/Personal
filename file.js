@@ -31,9 +31,11 @@ $(document).ready(function (e) {
                     isEmail:true
                 },
                 message:{
+                    required:true,
                     minlength:10,
                 },
                 mobile:{
+                    required:true,
                     number: true,
                     minlength:10,
                     maxlength:10,
